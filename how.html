@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오설록</title>
+    <style>
+        body{
+            margin: 0;
+            /* background-color: #ADC9B7; */
+            background-image: url(img/image_1.jpg);
+            background-size: cover;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            outline: none;
+        }
+        a:link, a:active, a:visited{
+            color: black;
+        }
+        a:hover{
+            color: #A0A0A0;
+        }
+        header{
+            width: 100%;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+        }
+        header ul{
+            width: 600px;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 40px;
+        }
+        header ul > li{
+            font-size: 18px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            margin-left: 20px;
+        }
+        h1{
+            margin: 40px 0 10px 0;
+        }
+        p{
+            color: #585858;
+        }
+        .container{
+            margin: 40px;
+        }
+        table, tr, th, td{
+            border-collapse: collapse;
+            padding: 12px;
+            margin: 18px;
+            width: 500px;
+            text-align: center;
+        }
+        th{
+            border-style: none;
+            font-size: 24px;
+        }
+        td{
+            border: 1px solid #ADC9B7;
+            background-color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/logo.png" width="120px"></a></div>
+        <ul>
+            <li><a href="history.html">오설록의 역사</a></li>
+            <li><a href="jeju.html">제주 차 밭</a></li>
+            <li><a href="shop.html">오프라인 매장</a></li>
+            <li><a href="tea.html">차의 종류</a></li>
+            <li><a href="how.html">차 우리는 방법</a></li>
+        </ul>
+    </header>
+    <center>
+        <h1>오설록 차 우리는 방법</h1>
+        <p>1티백 기준</p>
+
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="3">녹차 🍵</th>
+                </tr>
+                <tr>
+                    <td>150ml</td><td>70℃</td><td>1분 30초</td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="3">발효차, 홍차 🫖</th>
+                </tr>
+                <tr>
+                    <td>150ml</td><td>90℃</td><td>2분</td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="3">허브티 🌼</th>
+                </tr>
+                <tr>
+                    <td>150ml</td><td>90℃</td><td>2분</td>
+                </tr>
+            </table>
+        </div>
+        
+        
+    </center>
+</body>
+</html>
